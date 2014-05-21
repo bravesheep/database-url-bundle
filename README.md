@@ -7,7 +7,7 @@ Using [Composer][composer] add the bundle to your dependencies using the require
 
 ### Add the bundle to your AppKernel
 Add the bundle in your `app/AppKernel.php`. **Note**: in order for the parameters defined by this bundle to be picked
-up by Doctrine, you need to include this bundle before including the `Doctrine\Bundle\DoctrineBundle\DoctrineBundle()` 
+up by Doctrine, you need to include this bundle before including the `Doctrine\Bundle\DoctrineBundle\DoctrineBundle` 
 bundle.
 
 ```php
