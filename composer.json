@@ -1,0 +1,22 @@
+{
+    "name": "bravesheep/database-url-bundle",
+    "description": "Determine Symfony2 database settings from a single URL-based parameter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruben Nijveld",
+            "email": "ruben@gewooniets.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bravesheep\\DatabaseUrlBundle\\": "src/Bravesheep/DatabaseUrlBundle/"
+        }
+    },
+    "require": {
+        "symfony/symfony": "~2.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.0"
+    }
+}
