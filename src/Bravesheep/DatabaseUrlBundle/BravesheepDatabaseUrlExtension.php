@@ -27,9 +27,6 @@ class BravesheepDatabaseUrlExtension extends Extension
             $container->setParameter("{$prefix}name", $params['name']);
             $container->setParameter("{$prefix}user", $params['user']);
             $container->setParameter("{$prefix}password", $params['password']);
-            if (is_string($params['path']) && strlen($params['path']) > 1 && substr($params['path'], 0, 2) === './') {
-                $params['path'] = '%kernel.root_dir%' . substr($params['path'], 1);
-            }
             $container->setParameter("{$prefix}path", $params['path']);
             $container->setParameter("{$prefix}memory", $params['memory']);
         }
