@@ -8,6 +8,7 @@ class DatabaseUrlResolver
         'postgres' => 'pdo_pgsql',
         'postgresql' => 'pdo_pgsql',
         'pgsql' => 'pdo_pgsql',
+        'psql' => 'pdo_pgsql',
         'pdo_pgsql' => 'pdo_pgsql',
         'mysql' => 'pdo_mysql',
         'pdo_mysql' => 'pdo_mysql',
