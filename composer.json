@@ -14,7 +14,9 @@
         }
     },
     "require": {
-        "symfony/symfony": "~2.3"
+        "symfony/config": "~2.3",
+        "symfony/dependency-injection": "~2.3",
+        "symfony/http-kernel": "~2.3"
     },
     "require-dev": {
         "phpspec/phpspec": "2.0.0"
