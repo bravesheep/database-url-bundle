@@ -35,7 +35,7 @@ class DatabaseUrlResolver
 
         $parameters = [];
         if (!isset($parts['scheme'])) {
-            throw new \LogicException("Unkown scheme in '{$url}'.");
+            throw new \LogicException("Unknown scheme in '{$url}'.");
         }
 
         if (!isset(self::$scheme_drivers[$parts['scheme']])) {
